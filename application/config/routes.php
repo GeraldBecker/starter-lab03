@@ -45,7 +45,7 @@ $route['lock/(.*)'] = "welcome/shucks";
 $route['show/(:num)'] = "first/gimme/$1";
 $route['dunno'] = "guess";
 $route['([A-Za-z]{4}+)/bingo'] = "bingo"; // alternate regex [A-Za-z]{4}\/bingo
-
+$route['[A-Za-z]{4}\d{4}\/(.*)'] = "bingo/wisdom";
 
 
 /* End of file routes.php */
